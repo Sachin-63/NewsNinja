@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,KACE,wBAAyB,CACzB,aACF,CAEA,MACE,wBACF,CAEA,KACE,WAAW,CACX,iBACF","file":"main.2acb425c.chunk.css","sourcesContent":["body{\n  background-color: #181A1F;\n  color: aliceblue;\n}\n\n.card{\n  background-color: #272A2F;\n}\n\nhtml {\n  height:100%;\n  margin-bottom:1px;\n}\n\n"]}
