@@ -24,11 +24,11 @@ const App =()=> {
 
   return (
     <div>
-      {/* <Router> */}
+      <Router>
       <LoadingBar color='#FFC000' progress={progress} height={2} />
       <NavBar/>
-      <News setProgress={setProgress} apiKey={apiKey}  key="general" pageSize={pageSize} country="in" category="general"/>
-      {/* <Switch>
+      {/* <News setProgress={setProgress} apiKey={apiKey}  key="general" pageSize={pageSize} country="in" category="general"/> */}
+      <Switch>
         <Route exact path="/">
           <News setProgress={setProgress} apiKey={apiKey}  key="general" pageSize={pageSize} country="in" category="general"/>  
         </Route>
@@ -51,7 +51,7 @@ const App =()=> {
           <News setProgress={setProgress} apiKey={apiKey}  key="technology" pageSize={pageSize} country="in" category="technology"/>  
         </Route>
       </Switch>
-      </Router> */}
+      </Router>
     </div>
   )
 
